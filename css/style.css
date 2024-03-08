@@ -3228,6 +3228,25 @@ input[type="button"].btn-block {
   height: 1rem;
 }
 
+.hard-skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.hard-skills > img {
+  width: 80px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: filter 0.3s, box-shadow 0.3s;
+}
+.hard-skills img:hover {
+  filter: contrast(100%);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 /* CARD */
 
 section {
