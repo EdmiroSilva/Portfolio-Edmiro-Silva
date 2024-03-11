@@ -3247,6 +3247,17 @@ input[type="button"].btn-block {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 600px) {
+  .hard-skills {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hard-skills > img {
+    width: 60px;
+  }
+}
+
 /* CARD */
 
 section {
